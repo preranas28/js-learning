@@ -12,8 +12,3 @@ bankDetails("CITI Bank", 8956782345, 'Pune', 631202);
 
 
 
-// function add(n1, n2, n3){
-//     console.log("Arguments: " , n1 , n2, n3);
-//     var result = n1+n2+n3;
-//     console.log("Addition is:" , result);
-// }

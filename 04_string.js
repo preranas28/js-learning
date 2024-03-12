@@ -16,7 +16,7 @@ var totalChars = sentence.length;
 var lastChar = sentence.charAt(totalChars - 1);
 console.log("Last char is:",lastChar);
 
-console.log("==========IndexOf==========");
+console.log("==========IndexOf()==========");
 var greet = "Good Morning";
 var indexOfM = greet.indexOf('M');
 console.log("Index of char M:", indexOfM);
@@ -28,3 +28,29 @@ var lastName = "Sarode";
 var resultConcat = firstName.concat(lastName);
 console.log("Concat result is:", resultConcat);
 
+
+console.log("========== replace() ==========");
+var greet = "Good Morning";
+const afterReplace = greet.replace("Morning", "Afternoon");
+console.log(`After replace String is : ${afterReplace}`);
+
+
+console.log(`========== toUpperCase() ==========`);
+var greet = "Good Morning";
+const afterUpperCase = greet.toUpperCase(greet);
+console.log(`${greet} in upper case is : ${afterUpperCase}`);
+
+
+console.log(`========== toLowerCase() ==========`);
+var greet = "Good Morning";
+const toLowerCase = greet.toLowerCase(greet);
+console.log(`${greet} in lower case is : ${toLowerCase}`);
+
+
+console.log(`========== trim() ==========`);
+var greet = "    Good Morning  ";
+console.log(`${greet} it's length is : ${greet.length} `);
+
+var len = greet.length;
+greet.trim();
+console.log(len);
