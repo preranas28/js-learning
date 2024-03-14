@@ -1,3 +1,4 @@
+// ASSINGMENT
 //Given String :  "   Hey you are doing good, keep it up   ".
 
 function stringHandsOn(){
