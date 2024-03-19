@@ -15,9 +15,7 @@ function gradeCalculation(marks){
                 } else {
                     if (marks>=35 && marks<50) {
                         console.log(`Good marks ${marks}, Your grade is C, Need Improvement`);
-                    } else {
-                        
-                    }
+                    } 
                 }
             }
         }
