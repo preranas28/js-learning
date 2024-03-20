@@ -33,7 +33,7 @@ for (let index=10; index<=100; index=index+10){
 }
 
 
-console.log(`WAP to print of 10 in reverse order`);
+console.log(`WAP to print table of 10 in reverse order`);
 for (let index=100; index>=10; index=index-10){
     console.log(index);
 }
