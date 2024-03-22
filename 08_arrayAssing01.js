@@ -1,4 +1,4 @@
-const fruits_seasonal = ["Banana", "Orange", "Mango", "WaterMelon"];
+const fruits_seasonal = ["Banana", "Orange", "Apple", "Mango", "WaterMelon"];
 
 console.log(`---------- STEP 1 ----------`);
 var firstItem = fruits_seasonal[0];
@@ -13,9 +13,10 @@ console.log(`Adding 'Papaya' before 'Banana' the array will be :${fruits_seasona
 
 
 console.log(`---------- STEP 3 ----------`);
-const deleteElement = fruits_seasonal.splice(3,1);
+const deleteElement = fruits_seasonal.splice(4,1);
 console.log(`The removed element is : ${deleteElement}`);
-console.log(`After removing 'Mango' array will be : ${deleteElement}`);
+console.log(`After removing 'Mango' array will be :`);
+console.log(fruits_seasonal);
 
 
 console.log(`---------- STEP 4 ----------`);
@@ -25,14 +26,13 @@ console.log(fruits_seasonal);
 
 
 console.log(`---------- STEP 5 ----------`);
-const addElement = fruits_seasonal.splice(3,0,"Dragon Fruit");
+const addElement = fruits_seasonal.splice(4,0,"Dragon Fruit");
 console.log(`Inserting 'Dragon Fruit' before 'Watermelon' the array will be :`);
 console.log(fruits_seasonal);
 
 
 console.log(`---------- STEP 6 ----------`);
-const index = fruits_seasonal.indexOf("Orange");
-fruits_seasonal[index] = "Kiwi";
+const index = fruits_seasonal.splice(2, 1, "Kiwi");
 console.log(`After replacing 'Orange' with 'Kiwi' the array will be :`);
 console.log(fruits_seasonal);
 
