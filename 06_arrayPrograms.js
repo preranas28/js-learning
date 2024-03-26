@@ -50,3 +50,4 @@ console.log(`Multiplication of an array is : ${mulOdd}`);
 
 
 
+
