@@ -46,8 +46,8 @@ console.log(arrayNumbers);
 
 console.log(`---------- Insert or Add an elements in the middle of the array----------`);
 var arrayNumbers = [2, 4, 1, 7, 9, 8, 11, 22];
-console.log(arrayNumbers);
-const addElements = arrayNumbers.splice(3, 1, 100);
+console.log(arrayNumbers);const addElements = arrayNumbers.splice(3, 1, 100);
+
 console.log(addElements);
 console.log(arrayNumbers);
 

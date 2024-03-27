@@ -12,7 +12,7 @@ function add(n1, n2, n3){
     console.log("Arguments: " , n1 , n2, n3);
     var result = n1+n2+n3;
     console.log("Addition is:" , result);
-}
+ }
 add(3, 6, 7);
 add(99.89, 67, 454789);
 add(6, 7,);
