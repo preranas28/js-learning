@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+</head>
+<body>
+    <h2>Assingment Session Storage</h2>
+
+    <script>
+        window.sessionStorage.setItem("name", "Prerana Sarode");
+        window.sessionStorage.setItem("city", "Pune");
+        window.sessionStorage.setItem("pinCode", 411038);
+        window.sessionStorage.setItem("district", "Pune");
+
+
+        const result = window.sessionStorage.removeItem("city");
+       console.log(result);
+    </script>
+</body>
+</html>
