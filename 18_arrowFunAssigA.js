@@ -20,7 +20,7 @@ let addition = (num1, num2, num3, num4, num5) => {
 let squareResult = addition(100, 100, 200, 349, 759)
 console.log(`The addition is : ${squareResult}`);
 
-let squareResult1 = addition("I am", " learning", " ES6", " features", " in depth");
+let squareResult1 = addition("I am", " learning", " ES6", " features", " in depth.");
 console.log(`The result of concatenation is : ${squareResult1}`);
 
 
