@@ -22,6 +22,7 @@ const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 const array = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
 
 console.log(`------------ STEP 1 -----------`);
+console.log(`Find all employees from 'wipro' company:`);
 
 const newArray2 = array.filter((currentValue)=>{
     return currentValue.emp_company == "Wipro";
@@ -31,6 +32,7 @@ newArray2.forEach(element => {
 });
 
 console.log(`----------- STEP 2 -----------`);
+console.log(`Find all employees fom 'IT' or 'HR' dept:`);
 
 const newArray3 = array.filter((currentValue)=>{
     return currentValue.emp_dept == "IT" || currentValue.emp_dept == "HR";
@@ -40,6 +42,8 @@ newArray3.forEach(element => {
 });
 
 console.log(`----------- STEP 3 -----------`);
+console.log(`Find all the employees whose emp id's are greater than 50:`);
+
 const newArray4 = array.filter((currentValue)=>{
     return currentValue.emp_id > 50;
 });
@@ -49,6 +53,8 @@ newArray4.forEach(element => {
 
 
 console.log(`----------- STEP 4 -----------`);
+console.log(`Find all the employees whose name start with letter 'A' or 'V' or 'M':`);
+
 const newArray5 = array.filter((currentValue)=>{
     return currentValue.emp_name.startsWith('A') || currentValue.emp_name.startsWith('V') || currentValue.emp_name.startsWith('M');
 });
@@ -58,6 +64,8 @@ newArray5.forEach(element => {
 
 
 console.log(`----------- STEP 5 -----------`);
+console.log(`Find the average salary of the employees for the department:`);
+
 const newArray6 = array.filter((emp)=>{
     return emp.emp_dept;
  });
@@ -71,6 +79,8 @@ const newArray6 = array.filter((emp)=>{
  
 
  console.log(`----------- STEP 6 -----------`);
+console.log(`Find average salary for 'IT' department:`);
+
  const newArray7 = array.filter((emp)=>{
     return emp.emp_dept =="IT";
  });
